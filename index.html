@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="script/responsive.css">
+    <title>Portopolio - Intern CS- Kevin Chandra</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a> 
+        <div id="navbar" class="container">
+            <div class>
+                <img class="logo" src="Res/Logo.psd.png">
+            </div>
+            <div class="header-bar">
+                <a data-nav-section="AboutMe">About me</a> 
+                <a data-nav-section="skill">Skills</a>
+                <a data-nav-section="exp">Experiences</a>
+                <div class="submenu">
+                    <button class="submenubtn">Project<i class="fa fa-caret-down"></i></button>
+                    <div class="submenu-content">
+                        <a data-nav-section="Maku">Maku</a>
+                        <a data-nav-section="Mivin">Mivin</a>
+                    </div>
+                </div>
+                <a href="#" data-nav-section="contact">Contact Me</a>
+            </div>
+        </div>
+        <div class="emptyContainer"></div>
+    </header>
+    <div class="top-wrapper">
+        <div class="container">
+            <br>
+          <h1>Welcome to Kevin Chandra's Potofolio</h1>
+          <p>By showing this, I want to show you my collection of records that reflect my accomplishments, skills, and experiences</p>
+          <p>Kindly use the navigation bar if you want to go to a specific area</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <section data-section="AboutMe">
+        <br><br>
+        <div>
+            <div class="row">
+                <div class="box side">
+                </div>
+                <div class="box middlel">
+                    <a href="ProductPagePaper.html">
+                        <img src="res/Kevin.jpg" alt="">
+                    </a>
+                </div>
+                <div class="box mid">
+                </div>
+                <div class="box middler">
+                   <h1>About Me</h1>
+                   <h2><br>Kevin Chandra at your service!
+                       <br> <br>
+                       Passionate Computer Science undergraduate from Bina Nusantara University. Like to learn new things and dabble around with game programing(Godot) and making animation. Seeking an opportunity to leverage my programing skills as an intern at your company.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section data-section="skill">
+        <br><br>
+        <div class="row">
+            <div class="box side">
+            </div>
+            <div class="box middlel">
+                <img src="Res/Soft-Skill.png" alt="">
+            </div>
+            <div class="box middler">
+                <img src="Res/Hard-Skill.png" alt="">
+            </div>
+            </div>
+            <div class="box side">
+            </div>
+        </div>
+    </section>
+    <section data-section="sertificate">
+        <div class="top-wrapper">
+            <div class="container">
+              <h1>Certificate</h1>
+            </div>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="Res/Node.JS.png" alt="">
+            </div>
+            <div class="mySlides fade">
+                <img src="Res/BNEC.png">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+        </div>
+    </section>
+    <section data-section="exp">
+        <div class="top-wrapper">
+            <div class="container">
+              <h1>Experience</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box side">
+            </div>
+            <div class="box midcon">
+                    <img src="Res/Exp.png" alt="">
+            </div>
+            <div class="box side">
+            </div>
+        </div>
+    </section>
+    <section data-section="project">
+        <section data-section="Maku">
+            <br><br>
+            <div class="row">
+                <div class="box side">
+                </div>
+                <div class="box middlel">
+                    <h1>Maku (Makanan dan Aku)<br>
+                        Having a healty food makes your body healthy
+                        </h1>
+                        <h2>
+                            Problem to solve 
+                            <br>
+                            &nbsp;&nbsp;&nbsp;People don't realise their food's nutrition and for several of them who understand their nutrition needs are strugling to find the right recipe.
+                            <br><br>
+                            Product as solution
+                            <br>
+                            &nbsp;&nbsp;&nbsp;With Maku, people can easily calculate their food's nutrition by listing the ingredients. Not only that, they can also listing the nutritions that they want and Maku will generates teh suitable recipe.
+                            <br> <br>
+                            App Features 
+                            <br>
+                            &nbsp;&nbsp;&nbsp;Gizi Calculator: Calculate the food's nutrition based on the recipe.
+                            <br>
+                            &nbsp;&nbsp;&nbsp;Recipe Finder: Generate a recipe based on the required nutrition.
+                        </h2>
+                </div>
+                <div class="box mid">
+                </div>
+                <div class="box middler">
+                    <video src="Res/Maku.mp4" controls></video>
+                </div>
+                <div class="box side">
+                </div>
+            </div>
+        </section>
+        <section data-section="Mivin">
+            <br> <br>
+            <div class="row">
+                <div class="box side">
+                </div>
+                <div class="box middlel">
+                    <video src="Res/Mivin.mp4" controls></video>
+                </div>
+                <div class="box mid">
+                </div>
+                <div class="box middler">
+                    <h1>Mivin, your friendly TODO app. <br> Pick a location, input your task and Mivin will record it for you.</h1>
+                    <h2>
+                        Problem to solve: 
+                        <br>
+                        &nbsp;&nbsp;&nbsp;People are struggle to listing their task. Several of them tend to forget anc can't manage it.
+                        <br><br>
+                        Product as solution
+                        <br>
+                        &nbsp;&nbsp;&nbsp;With Mivin, people can easily input their task. Not only that, they can also share their Mivin's task with a barcode to make sharing tasks more easy.
+                        <br> <br>
+                        App Features 
+                        <br>
+                        &nbsp;&nbsp;&nbsp;Todo-List: Manage their task, a task is consist of title, description and location. They can edit, cross or even delete their task.
+                        <br>
+                        &nbsp;&nbsp;&nbsp;Share and scan QR: Generate a QR which cointained their Mivin's Task to make it esier on sharing tasks.
+                       
+                    </h2>
+                </div>
+                <div class="box side">
+                </div>
+        </section>
+    </section>
+    <section data-section="contact">
+        <div>
+            <div class="top-wrapper">
+                <div class="container">
+                  <h1>My Contact</h1>
+                  <h3>Feel free to contact me</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box side">
+                </div>
+                <div class="box middlel">
+                    <h1>Email</h1>
+                   <h2>Email(Main): kevin.chandra010@binus.ac.id
+                    <br>
+                   Email(Private): kc.chandra.kevin@gmail.com</h2>
+                </div>
+                <div class="box mid">
+                </div>
+                <div class="box middler">
+                    <h1>Social Media</h1>
+                    <h2>
+                    Line: kev.chandra
+                     <br>
+                    Instagram: chan_ke_vin</h2>
+                </div>
+                </div>
+                <div class="box side">
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="box side">
+                </div>
+                <div class="box middlel">
+                   <h1>Linkedin</h1>
+                   <h2>Linkedin: Kevin Chandra</h2>
+                </div>
+                <div class="box mid">
+                </div>
+                <div class="box middler">
+                    <h1>Phone Number</h1>
+                    <h2>Phone number: (+62) 815-671-4724</h2>
+                </div>
+                </div>
+                <div class="box side">
+                </div>
+            </div> 
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="box icon">
+            <a href="https://www.linkedin.com/in/kevin-chandra-3939b2223/">
+                <img class="Linkedin" src="Res/linkedIn.png" alt="">
+            </a>       
+         </div>
+        <div class="box icon">
+            <a href="https://www.instagram.com/chan_ke_vin/?hl=id">
+                <img class="Instagram" src="Res/Instagram.png" alt="">
+            </a>     
+        </div>
+        </div>
+        <div class="container-footer">
+            <p> Made by Kevin Chandra</p>
+        </div>
+        </div>
+    </footer>
+   <script src="script/script.js"></script>
+   <script src="sc/jquery.waypoints.min.js"></script>
+   <script src="sc/jquery.countTo.js"></script>
+   <script src="sc/main.js"></script>
+</body>
+</html>
