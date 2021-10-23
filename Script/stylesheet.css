@@ -259,6 +259,9 @@
     letter-spacing: 1px;
     
   }
+  .box.middler a{
+    color:black;
+  }
   .box.box.midcon h1{
     font-size: 45px;
     letter-spacing: 5px;
