@@ -1,6 +1,9 @@
   .nav{
     overflow: hidden;
   }
+  html {
+  scroll-behavior: smooth;
+  }
   a, h1, h2, h3, p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
